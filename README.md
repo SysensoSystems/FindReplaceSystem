@@ -5,14 +5,13 @@
 Ref: Simulink API documentation "find_system".
 Please refer the syntax and examples below.
 Syntax:
->>find_replace_system('<model name/subsystem name>',<find_system property value-pairs if required>,'<Find Property Name>','<Find Property Value>','<Replace Value>','prompt')
->>find_replace_system('<model name/subsystem name>','<Find Property Name>','<Find Property Value>','<Replace Value>','prompt')
->>find_replace_system('<model name/subsystem name>','<Find Property Name>','<Find Property Value>','<Replace Value>')
-- <find_system property value-pairs if required> Refer help
-find_system of all different types of properties can be used to
-narrow down the search, 'LookUnderMasks', 'RegExp', 'SearchDepth',
-'FollowLinks', etc..
-- 'prompt' is an optional keyword.
+* find_replace_system('<model name/subsystem name>',<find_system property value-pairs if required>,'<Find Property Name>','<Find Property Value>','<Replace Value>','prompt')
+* find_replace_system('<model name/subsystem name>','<Find Property Name>','<Find Property Value>','<Replace Value>','prompt')
+* find_replace_system('<model name/subsystem name>','<Find Property Name>','<Find Property Value>','<Replace Value>')
+
+ find_system property value-pairs if required> Refer help find_system of all different types of properties can be used to narrow down the search, 'LookUnderMasks', 'RegExp', 'SearchDepth', 'FollowLinks', etc..
+
+ prompt' is an optional keyword.
 
 Example:
 * find_replace_system('sldemo_autotrans','LookUnderMasks','all','FindAll','on','type','block','Name','Transmission','AutoTransmission','prompt')
