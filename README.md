@@ -22,6 +22,9 @@ Example:
 * find_replace_system(gcs,'Amplitude','3','1.5')
 * find_replace_system(gcs,'ZeroCross','on','off','prompt')
  
+
+MATLAB Release Compatibility: Created with R2010b, Compatible with any release
+ 
 Please share your comments and suggestions.
  
 Developed by: Sysenso Systems, www.sysenso.com
